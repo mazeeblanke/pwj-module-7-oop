@@ -23,13 +23,15 @@ class Button {
     constructor(color, keyCode){
         this.color = color
         this.keyCode = keyCode
-        this.el = document.getElementById('65')
+        this.el = document.getElementById(keyCode)
+        this.setButtonColorInHTML()
     }
 
     /**
      * Set the button color based on color specified
      */
     setButtonColorInHTML = () => {
+        this.el.style.borderColor = this.color
     }
 
     /**
