@@ -8,8 +8,8 @@
  * DONE: Button pt4: Call the select() function upon key press ;)
  * DONE: Button pt5: Add transition for button selection
  * DONE: Button pt6: Remove the button style upon transition end | Use deselect function
- * TODO: Complete all button instances with the following colors
- * TODO: Add background image
+ * DONE: Complete all button instances with the following colors
+ * DONE: Add background image
  * First 3: #00fffe
  * 4,5,6,7: #FF00FF
  * 8, 9: #FFFFFF
