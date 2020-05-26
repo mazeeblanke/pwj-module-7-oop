@@ -21,6 +21,9 @@ class Beat {
  */
 class Button {
     constructor(color, keyCode){
+        this.color = color
+        this.keyCode = keyCode
+        this.el = document.getElementById('65')
     }
 
     /**
