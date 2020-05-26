@@ -38,6 +38,8 @@ class Button {
      * Select function to set the background color and boxShadow
      */
     select = () => {
+        this.el.style.backgroundColor = this.color
+        this.el.style.boxShadow = `0px 0px 17px 0px ${this.color}`
     }
 
     /**
